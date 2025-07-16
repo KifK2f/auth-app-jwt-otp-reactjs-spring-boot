@@ -31,7 +31,7 @@ public class User implements UserDetails {
     @Column(name = "code_verification_OTP")
     private String otpVerificationCode;
 
-    @Column(name = "code_verification_OTP")
+    @Column(name = "code_verification_expire_a")
     private LocalDateTime otpVerificationCodeExpiresAt;
 
     @Column(name = "est_active")
